@@ -1,0 +1,99 @@
+/*catalog.css*/
+
+body
+{
+background-color:white ;
+}
+@font-face {
+    font-family: Gorditas;
+    src: url(media/Gorditas/Gorditas-Regular.ttf);  
+}
+@font-face {
+    font-family: Kurale;
+    src: url(media/Kurale/Kurale-Regular.ttf);
+}
+
+/*NAVIGATION-BAR*/
+nav
+{
+    font-family: Gorditas;
+     display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+a 
+{
+  color: black;
+}
+
+a:hover 
+{
+background-color: rgb(255, 252, 244);
+}
+
+#logo
+{
+ width: 250px;
+ height: 75px;
+}
+
+#cheese
+{
+    height: 90px;
+}
+
+.lincoln_column
+{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.column
+{
+    flex: 55%;
+    padding: 10px;
+    justify-content: right;
+}
+
+.row
+{
+  display: flex; 
+}
+
+#title1
+{
+    font-family: Gorditas;
+    color:rgb(224, 126, 69);
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+#title2
+{
+    font-family: Gorditas;
+    color:rgb(226, 165, 92);
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+#title3
+{
+    font-family: Gorditas;
+    color:rgb(224, 126, 69);
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.column_2
+{
+    justify-content: right;
+}
+
+.column_3
+{
+    justify-content: right;
+}
