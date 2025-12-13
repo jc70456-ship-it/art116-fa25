@@ -1,0 +1,67 @@
+/*contacts.css*/
+
+body
+{
+background-color:white ;
+}
+@font-face {
+    font-family: Gorditas;
+    src: url(media/Gorditas/Gorditas-Regular.ttf);  
+}
+@font-face {
+    font-family: Kurale;
+    src: url(media/Kurale/Kurale-Regular.ttf);
+}
+
+/*NAVIGATION-BAR*/
+nav
+{
+    font-family: Gorditas;
+     display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+a 
+{
+  color: black;
+}
+
+a:hover 
+{
+background-color: rgb(255, 252, 244);
+}
+
+#logo
+{
+ width: 250px;
+ height: 75px;
+}
+
+#cheese
+{
+    height: 90px;
+}
+
+#title
+{
+    font-family: Gorditas;
+    color:rgb(224, 126, 69);
+    text-align: center;
+}
+
+.center
+{
+    font-family: Kurale;
+    text-align:center;
+    padding: 20px;
+    color:  rgb(119,179,243);
+    size: 45px;
+}
+
+#mouse
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
